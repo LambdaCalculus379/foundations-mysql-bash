@@ -14,4 +14,15 @@ Be sure that MySQL is running:
 
 ` $ ps -ax | grep -i mysqld `
 
+If MySQL is not running:
+
+* Is MySQL installed on your system? If not, refer to your OS's docs on how to install MySQL packages.
+* If MySQL is already installed, verify that you can connect to the server as root:
+
+` $ mysql --user=root `
+
+## HOW THIS SCRIPT WORKS
+
+This script sets various environment variables, then attempts to call them.
+
 
