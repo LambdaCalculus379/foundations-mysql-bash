@@ -12,3 +12,5 @@ echo $FUNC_DEF
 
 # Generated function definition string failed
 # $ helloIn() { echo Hello Yourself!;}
+
+# NOTE: Try-catch output would make manual copy-paste unncessary!
